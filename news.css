@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(145deg,rgb(16, 36, 211), rgb(122, 151, 184));
+}
+
+h1{
+    background-color: black;
+    color:white;
+    text-align:center;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2{
+    text-decoration: underline;
+}
+nav{
+    background: none;
+    text-align: center;
+}
+
+a{
+    color:rgb(240, 230, 230);
+
+}
+
+button{
+    background:brown;
+    border-radius: 10px;
+}
+
+p{
+    text-indent: 20px;
+}
+
+h3{
+    text-align: center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/*body{
+ background: linear-gradient(128deg, rgba(147,16,152,1) 0%, rgba(149,193,174,1) 40%, rgba(194,39,25,0.8590909090909091) 100%);
+} 
+
+h2{
+    font-family: helvetica;
+    font-size: 2em;
+    background-color:rgba(255,255,255,1);
+}
+
+h1{
+    font-family:"Dancing Script";
+    background-color: rgb(104, 95, 133);
+    color: hsl(434,95%,57%,0.9);
+    text-align: center;
+    font-weight:100;
+    letter-spacing:5px;
+    font-size:3em;
+} 
+
+a{
+    text-decoration:none;
+
+}
+button{
+    background-color:black;
+}
+     */
