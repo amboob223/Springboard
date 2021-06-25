@@ -3,45 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Starter</title>
+    <title>Q & A</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
-
+    <!-- extra fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-    <div class="container">
-      <!-- title -->
-      <div class="title"></div>
-      <h2>our reviews</h2>
-      <div class = "underline"></div>
-    </div>
-      <!--reviews -->
-      <article class = "review">
-        <div class="img-container">
-          <img src="./person-1.jpeg" id="person-img" alt=""> 
-        </div>
-        <h4 id = "author"> sara jones</h4>
-        <p id="job">ux designer></p>
-        <p id = "info"> abra ak baghr huhgjhkjhfgiufdhi</p>
-        <div class="button-container">
-        <button class="prev-btn"> 
-        <i class = "fas fa-chevron-left"></i>
-        </button>
-        <button class= "next-btn"  >
-          <i class = "fas fa-chevron-right"></i>
-        </button>
+    <section class="questions">
+      <div class="title">
+      <h2>questions project</h2>
       </div>
-      <!-- random button-->
-      <button class="random-btn">surprise me</button>
-    </article>
-  </main>
-    <h1>review project</h1>
+      <div class="section-center">
+        <article class="question">
+          <!--question tutle-->
+          <div class="question-title">
+       <p> do yall take credit cards</p>
+          <button type=button class= "question-btn">
+          <span class="plus-icon">
+            <i class="far fa-plus-square"></i>
+          </span>
+          <span class = "minus-icon">
+            <i class = "far fa-minus-square"></i>
+          </span>
+        </button>
+          </div><!-- put all tha in the div is how we got it to cwenter-->
+          <!--question text-->
+          <div class = "question-text">
+            <p>this is a paragraph about credit cards </p>
+          </div>
+          
+        </article>
+        
+        <!-- end single question-->
+      </div>
+    
+    <div class="section-center"> <!-- this is the strt pf the sceond one-->
+      <article class="question">
+        <!--question tutle-->
+        <div class="question-title">
+          <p> do yall support the hood</p>
+          <button type=button class="question-btn">
+            <span class="plus-icon">
+              <i class="far fa-plus-square"></i>
+            </span>
+            <span class="minus-icon">
+              <i class="far fa-minus-square"></i>
+            </span>
+          </button>
+        </div><!-- put all tha in the div is how we got it to cwenter-->
+        <!--question text-->
+        <div class="question-text">
+          <p>We support the ghettos all around the world </p>
+        </div>
+    </section>
+      </article>
+    
+      <!-- end single question-->
+    </div>
+    <!-- new question-->
+    <div class="section-center">
+      <article class="question">
+        <!--question tutle-->
+        <div class="question-title">
+          <p> Where should I go for Vacation</p>
+          <button type=button class="question-btn">
+            <span class="plus-icon">
+              <i class="far fa-plus-square"></i>
+            </span>
+            <span class="minus-icon">
+              <i class="far fa-minus-square"></i>
+            </span>
+          </button>
+        </div><!-- put all tha in the div is how we got it to cwenter-->
+        <!--question text-->
+        <div class="question-text">
+          <p>the solution to this is making yiour mind up an picking a random place </p>
+        </div>
+    
+      </article>
+    
+      <!-- end single question-->
+    </div>
+ 
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
